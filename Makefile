@@ -10,7 +10,7 @@ run-fts-q1:
 	./.venv/bin/harbor run --env docker -p tasks/fts/q-1-managed-agents-security -a antigravity-sdk -m gemini-3.5-flash --ve GEMINI_API_KEY=$$GEMINI_API_KEY
 
 regenerate-db:
-	./.venv/bin/python generate_sqlite_docs.py
+	./.venv/bin/python scripts/generate_sqlite_docs.py
 
 regenerate-tasks:
-	./.venv/bin/python create_fts_tasks.py
+	./.venv/bin/python scripts/create_fts_tasks.py
