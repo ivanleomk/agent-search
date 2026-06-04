@@ -1,0 +1,54 @@
+[dataset]
+name = "ivanleo/agent-search"
+description = "Evaluation dataset for agent-search task."
+keywords = []
+[[dataset.authors]]
+name = "Ivan Leo"
+email = "ivanleomk@gmail.com"
+
+
+[[tasks]]
+name = "ivanleo/q-1-managed-agents-security"
+digest = "sha256:5fca41c3490ae17aea7b8531cf3fc250f7d70ad75d67228f7d3096a94cdc83e4"
+
+[[tasks]]
+name = "ivanleo/q-10-context-caching-video-tokens"
+digest = "sha256:44081a03d80bd72d954d553c42923e0b5bb8f82fdd13fa1106ab9811d844502c"
+
+[[tasks]]
+name = "ivanleo/q-2-interactions-api-schema"
+digest = "sha256:844e2965c6cdfe3b81f13e0cde249555e6108d8754cedd0e331bf85d9752b3bf"
+
+[[tasks]]
+name = "ivanleo/q-3-live-api-session-limits"
+digest = "sha256:7fcf1776893ff3cb5c1b5ca4709a1b47b8c65e82559e3d0748abb5b9411554c0"
+
+[[tasks]]
+name = "ivanleo/q-4-deep-research-planning-mcp"
+digest = "sha256:31a6a23ee76c12249c02405b9b965b55fe110bcf2b1ec9030b08c25560b74023"
+
+[[tasks]]
+name = "ivanleo/q-5-pro-image-search-grounding"
+digest = "sha256:7498b7f496214d73e533c971f8d29ef2e83f74cfa538efe2df6424c1d2b83563"
+
+[[tasks]]
+name = "ivanleo/q-6-multimodal-embeddings-rag"
+digest = "sha256:85c4ec458e652d10b80e917c8092db94fd9643ea0dcd7df80262294946b4f80d"
+
+[[tasks]]
+name = "ivanleo/q-7-openai-compatibility-thought-signatures"
+digest = "sha256:d91216622a3519116250c7bc3f4efd25502f345e00cd5747fe7a4d1616cbfa9d"
+
+[[tasks]]
+name = "ivanleo/q-8-ai-studio-android-build"
+digest = "sha256:653abe4bf073547af5d31d1cccacd0b1e359be042d805d77a5f3005b2fdcc9ca"
+
+[[tasks]]
+name = "ivanleo/q-9-inference-tiers-flex-priority"
+digest = "sha256:19c3804199167a257faa6e2ba4c7fcb492214f6e0e3f165b69568ed971b00398"
+
+
+[[files]]
+path = "metric.py"
+digest = "sha256:52904120417c9a58c21750ce5e2eb721c4b0ef1c1536d0b31d208e55e377ead9"
+

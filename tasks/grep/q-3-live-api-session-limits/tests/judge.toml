@@ -1,0 +1,9 @@
+[judge]
+judge = "gemini/gemini-3.1-flash-lite"
+files = ["/app/output.txt"]
+reference = "/tests/ground_truth.txt"
+
+[[criterion]]
+name = "completeness"
+description = "Did the agent answer the question completely and cover every point that was mentioned in the ground truth?"
+type = "binary"
