@@ -47,6 +47,46 @@ digest = "sha256:653abe4bf073547af5d31d1cccacd0b1e359be042d805d77a5f3005b2fdcc9c
 name = "ivanleo/q-9-inference-tiers-flex-priority"
 digest = "sha256:19c3804199167a257faa6e2ba4c7fcb492214f6e0e3f165b69568ed971b00398"
 
+[[tasks]]
+name = "ivanleo/fts-q-1-managed-agents-security"
+digest = "sha256:68a865c934ea0b716ab5a18136a380aab622ca78eed12b51e1473d1c555b5a47"
+
+[[tasks]]
+name = "ivanleo/fts-q-10-context-caching-video-tokens"
+digest = "sha256:7ae55fcba5f28d36404621f99602680b5c6fb6acb8745802c7d87dd656e1221e"
+
+[[tasks]]
+name = "ivanleo/fts-q-2-interactions-api-schema"
+digest = "sha256:2afb798db31390b589f9daad108cbd798b4388a2ef4aad2a22d8dc9fb9cdf974"
+
+[[tasks]]
+name = "ivanleo/fts-q-3-live-api-session-limits"
+digest = "sha256:af70cdb0cfd06b1442488a327e4397ba8dd025aab162e09d040087d62980fe63"
+
+[[tasks]]
+name = "ivanleo/fts-q-4-deep-research-planning-mcp"
+digest = "sha256:b663b0bf3743a31caec55f1a316735be61f9c62857a028cfda039e419d5876f0"
+
+[[tasks]]
+name = "ivanleo/fts-q-5-pro-image-search-grounding"
+digest = "sha256:591fec693c60f7a3926dfccdd548842c7454ea5f203e91c9c8cf2ea96980d91c"
+
+[[tasks]]
+name = "ivanleo/fts-q-6-multimodal-embeddings-rag"
+digest = "sha256:89fb3026a2f7f5e414744063711bd97be04ec543efc3bddb1eaba2a0610c243e"
+
+[[tasks]]
+name = "ivanleo/fts-q-7-openai-compatibility-thought-signatures"
+digest = "sha256:31e1418f36210bc2aec60a2e8243fcca2201a903e9227f878d86b778820d9ac2"
+
+[[tasks]]
+name = "ivanleo/fts-q-8-ai-studio-android-build"
+digest = "sha256:9bbdd14f930959ee1ddc0749e3f7f51b58f32dfac32c2174b4bc9977429fa3fe"
+
+[[tasks]]
+name = "ivanleo/fts-q-9-inference-tiers-flex-priority"
+digest = "sha256:073c0ed5d97b95bc2a312e2eafe24ee248ae4dcb5d7d73b9b7527abd840f5140"
+
 
 [[files]]
 path = "metric.py"
