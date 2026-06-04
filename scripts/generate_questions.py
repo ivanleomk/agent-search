@@ -79,13 +79,13 @@ Do not return any extra markdown styling around the JSON (no ```json code blocks
         questions = json.loads(raw_text)
 
         # Save to JSON file
-        json_output = "natural_synthetic_questions_2.json"
+        json_output = "data/natural_synthetic_questions_2.json"
         with open(json_output, "w", encoding="utf-8") as f:
             json.dump(questions, f, indent=2)
         print(f"Successfully saved JSON to {json_output}")
 
         # Save to Markdown file
-        md_output = "natural_synthetic_questions.md"
+        md_output = "data/natural_synthetic_questions.md"
         with open(md_output, "w", encoding="utf-8") as f:
             f.write("# Conversational Multi-Hop Synthetic Questions\n\n")
             f.write(
